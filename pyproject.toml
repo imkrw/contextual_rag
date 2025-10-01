@@ -1,0 +1,11 @@
+[project]
+name = "contextual-rag"
+version = "0.1.0"
+description = "Contextual RAG assistant powered by OpenAI, Pinecone, and Gradio."
+readme = "README.md"
+requires-python = ">=3.12.8"
+dependencies = [
+    "gradio>=5.46.0",
+    "openai-agents>=0.3.0",
+    "pinecone>=6.0.0",
+]
